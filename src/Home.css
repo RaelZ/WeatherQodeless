@@ -38,7 +38,11 @@
   background-color: white;
   color: #5EA8EC;
   font-weight: bold;
-  border-style: none;} 
+  border-style: none;
+} 
+.botao-cadastrar:active {
+  color: #1271c9;
+}
 
 .Home-header {
   position: absolute;
