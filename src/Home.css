@@ -1,0 +1,74 @@
+.Home {
+  text-align: center;
+}
+
+.botao-entrar {
+  border-radius: 30px;
+  position: absolute;
+  width: 90px;
+  height: 35px;
+  left: 1210px;
+  top: 20px;
+  background-color: #5EA8EC;
+  color: white;
+  font-weight: bold;
+  border-style: none;
+}
+.weather-label {
+  letter-spacing: 2px;
+  color: white;
+  font-family: "Arial";
+  font-size: medium;
+  position: relative;
+  bottom: 5px;
+}
+
+.weatherLabelIcon {
+  padding: 13px 15px;
+  display: flex;
+}
+
+.botao-cadastrar {
+  border-radius: 30px;
+  position: absolute;
+  width: 110px;
+  height: 35px;
+  left: 1090px;
+  top: 20px;
+  background-color: white;
+  color: #5EA8EC;
+  font-weight: bold;
+  border-style: none;} 
+
+.Home-header {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  background: #AAD6FF;
+  display: flex;
+  justify-content: space-between;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.Home-body {
+  background: #AAD6FF;
+  min-height: calc(100vh - 70px);
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.Home-footer {
+  height: 70px;
+  background-color: #5EA8EC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: white;
+}
+.Home-link {
+  color: #61dafb;
+}
